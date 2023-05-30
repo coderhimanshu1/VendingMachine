@@ -1,6 +1,10 @@
-# Getting Started with Create React App
+# Vending Machine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Practice in Motion
+
+https://github.com/coderhimanshu1/VendingMachine/assets/87880250/d32f3c82-30bd-4298-8296-02e7badc0443
+
+
 
 ## Available Scripts
 
