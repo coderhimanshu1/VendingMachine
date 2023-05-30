@@ -37,6 +37,65 @@
   padding: 5%;
 }
 
+.Soda {
+  display: inline-block;
+  justify-content: center;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.Soda img {
+  display: inline;
+  animation: spin 2s linear infinite;
+  margin: 0 10%;
+}
+
+.Soda a {
+  display: flex;
+  justify-content: center;
+  font-weight: 700;
+  font-size: large;
+  text-decoration: none;
+}
+
+.Soda-items {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  padding: 5%;
+  margin-top: 2%;
+  margin-bottom: 20%;
+}
+
+.Chips {
+  display: block;
+  justify-content: center;
+}
+
+.Chips a {
+  font-weight: 700;
+  font-size: large;
+  text-decoration: none;
+}
+.Chips img {
+  width: 50%;
+  margin: 5%;
+}
+
+.Chips-items {
+  background-color: rgba(0, 0, 0, 0.3);
+  width: fit-content;
+  padding: 5%;
+  margin-top: 2%;
+  margin-left: 40%;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
